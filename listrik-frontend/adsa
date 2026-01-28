@@ -1,0 +1,19 @@
+[33mcommit 7fdcf05ee5ef365b81dbdb648420fcd7c5ec086e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: VilaidLeywin <vilaidleywin@gmail.com>
+Date:   Thu Jan 22 14:54:50 2026 +0700
+
+    change name
+
+[1mdiff --git a/src/pages/Receipt.jsx b/src/pages/Receipt.jsx[m
+[1mindex 92ae3fa..ec7a85d 100644[m
+[1m--- a/src/pages/Receipt.jsx[m
+[1m+++ b/src/pages/Receipt.jsx[m
+[36m@@ -93,7 +93,7 @@[m [mexport default function Receipt() {[m
+               <div className="rounded-xl bg-white/10 p-3">[m
+                 <div className="text-xs opacity-90">Status</div>[m
+                 <div className="font-semibold">[m
+[31m-                  {bill.paid ? "LUNAS" : "BELUM LUNAS"}[m
+[32m+[m[32m                  {bill.paid ? "LUNAS!!" : "BELUM LUNAS"}[m
+                 </div>[m
+                 {bill.paid && bill.paid_at && ([m
+                   <div className="mt-1 text-xs opacity-90">[m
